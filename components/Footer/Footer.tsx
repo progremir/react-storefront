@@ -42,7 +42,7 @@ export function Footer({ className, ...rest }: FooterProps) {
                 <Link href={getLinkPath(item!, currentChannel.slug, currentLocale)} passHref>
                   <a
                     href="pass"
-                    className="block text-md font-bold mb-4 cursor-pointer hover:underline"
+                    className="inline-block text-md font-bold mb-4 cursor-pointer hover:underline"
                   >
                     {item?.name}
                   </a>

@@ -42,9 +42,6 @@ module.exports = {
       borderWidth: {
         DEFAULT: "1px",
       },
-      fontFamily: {
-        sans: ["Inconsolata"],
-      },
       fontWeight: {
         normal: 400,
         regular: 500,
